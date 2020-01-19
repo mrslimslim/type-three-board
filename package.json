@@ -1,0 +1,25 @@
+{
+  "name": "views",
+  "version": "1.0.0",
+  "author": "tengyu",
+  "license": "ISC",
+  "description": "for raydata",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "three": "^0.112.1",
+    "webpack": "4.41.5"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "3.0.2",
+    "shader-loader": "1.3.1",
+    "ts-loader": "6.2.1",
+    "ts-shader-loader": "1.0.6",
+    "typescript": "3.5.1",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.10.1"
+  }
+}
